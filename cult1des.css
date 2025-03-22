@@ -21,3 +21,34 @@
   text-indent: 3%;
   top: 2.5%;
 }
+
+#cults_1_p{
+  display: none;
+
+}
+
+#cults_1{
+  display: block;
+}
+
+#member_1{
+  color: red;
+}
+#member_1_p{
+  display: none;
+}
+
+#leaders_1{
+  color:red;
+}
+#leaders_1_p{
+  display: none;
+}
+
+#ends_1{
+  color:red;
+}
+
+#ends_1_p{
+  display: none;
+}

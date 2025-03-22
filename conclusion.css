@@ -7,3 +7,12 @@
   display: none;
   
 }
+
+#sources{
+  color: red;
+}
+
+#sources_list{
+  color: black;
+  display: none;
+}
