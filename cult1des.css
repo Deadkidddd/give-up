@@ -1,0 +1,23 @@
+#title_cult{
+  width: 100%;
+  background-color: floralwhite;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: absolute;
+  place-self: center;
+  text-indent: 3%;
+  top: 0%;
+}
+
+#subtitle_cult{
+  width: 100%;
+  background-color: floralwhite;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  position: relative;
+  place-self: center;
+  text-indent: 3%;
+  top: 2.5%;
+}
