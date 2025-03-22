@@ -50,3 +50,9 @@ document.getElementById("cat_slideshow_1").onclick = showDropdown;
 document.getElementById("cat_slideshow_2").onclick = showDropdown;
 document.getElementById("cat_slideshow_3").onclick = showDropdown;
 
+document.getElementById("home_btn").innerHTML = "Home";
+document.getElementById("home_btn").onclick = function(){
+  glitch();
+  setTimeout(function() { window.location.href = "index.html"; }, 1000);
+};
+
