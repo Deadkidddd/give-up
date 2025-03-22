@@ -15,4 +15,7 @@ function show_leaders_2(){
 //buttons for in-screen changes
 member_2.onclick = show_member_2;
 leaders_2.onclick = show_leaders_2;
-ends_2.onclick = document.getElementById("ends_2_p").style.display = "block";
+function show_ends_2(){
+  ends_2_p.style.display = "block";
+}
+ends_2.onclick = show_ends_2;
