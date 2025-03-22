@@ -1,6 +1,22 @@
+//types text
 document.getElementById("cult_1_screen").innerHTML = "Cult 1";
 
 document.getElementById("cult_2_screen").innerHTML = "Cult 2";
+
+document.getElementById("home_btn").innerHTML = "Home";
+
+document.getElementById("conclusion_btn").innerHTML = "conclusion";
+
+//buttons for screen switches
+document.getElementById("conclusion_btn").onclick = function(){
+  glitch();
+  setTimeout(function() { window.location.href = "conclusion.html"; }, 1000);
+};
+
+document.getElementById("home_btn").onclick = function(){
+  glitch();
+  setTimeout(function() { window.location.href = "index.html"; }, 1000);
+};
 
 document.getElementById("cult_1_screen").onclick = function chang_cult_1(){
   glitch();
@@ -12,6 +28,7 @@ document.getElementById("cult_2_screen").onclick = function chang_cult_1(){
   setTimeout( function() { window.location.href = "cult2description.html"; }, 1000);
 }
 
+//transition between screens animation
 let glitched_cat = 
   document.getElementById("glitched_cat");
 let body_glitch = document.getElementById("body");
@@ -49,10 +66,3 @@ function showDropdown() {
 document.getElementById("cat_slideshow_1").onclick = showDropdown;
 document.getElementById("cat_slideshow_2").onclick = showDropdown;
 document.getElementById("cat_slideshow_3").onclick = showDropdown;
-
-document.getElementById("home_btn").innerHTML = "Home";
-document.getElementById("home_btn").onclick = function(){
-  glitch();
-  setTimeout(function() { window.location.href = "index.html"; }, 1000);
-};
-
